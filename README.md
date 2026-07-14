@@ -8,15 +8,15 @@ Zerodha Clone is a full-stack trading platform inspired by Zerodha Kite. It prov
 
 ## 🚀 Live Links
 
-### Frontend Website
+### Trading Dashboard
 https://zerodha-clone-5ax3.vercel.app/
 
-### Trading Dashboard
+### Frontend Website
 https://zerodha-clone-rose-one.vercel.app/
 
 ### GitHub Repository
 https://github.com/prathmeshpawa/Zerodha-Clone
-
+### Trading Dashboard
 ---
 
 ## ✨ Features
