@@ -19,7 +19,7 @@ const BuyActionWindow = ({ uid }) => {
     };
 
     try {
-      const response = await fetch("http://localhost:3002/newOrder", {
+      const response = await fetch("https://zerodha-clone-kuqw.onrender.com/newOrder", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

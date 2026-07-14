@@ -8,7 +8,7 @@ const Holdings = () => {
 
   const fetchHoldings = useCallback(() => {
     setLoading(true);
-    return fetch("http://localhost:3002/holdings")
+    return fetch("https://zerodha-clone-kuqw.onrender.com/holdings")
       .then((response) => response.json())
       .then((data) => {
         if (Array.isArray(data)) setAllHoldings(data);
@@ -25,7 +25,7 @@ const Holdings = () => {
     // Open SSE connection for real-time updates
     let es;
     try {
-      es = new EventSource("http://localhost:3002/stream/holdings");
+      es = new EventSource("https://zerodha-clone-kuqw.onrender.com/stream/holdings");
       es.onmessage = (e) => {
         try {
           const data = JSON.parse(e.data);

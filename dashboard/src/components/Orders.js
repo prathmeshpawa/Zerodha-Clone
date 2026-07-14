@@ -9,7 +9,7 @@ const Orders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await fetch("http://localhost:3002/orders");
+        const response = await fetch("https://zerodha-clone-kuqw.onrender.com/orders");
         if (!response.ok) {
           throw new Error("Could not fetch orders");
         }
