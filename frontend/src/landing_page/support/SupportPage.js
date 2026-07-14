@@ -12,4 +12,4 @@ function SupportPage() {
   );
 }
 
-export default SupportPage;git add .
+export default SupportPage;
