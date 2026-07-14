@@ -11,6 +11,7 @@ import Footer from "../Footer";
 function PricingPage() {
   return (
     <>
+      <Navbar />
       <Hero />
       <LeftSection
         imageURL="media/images/kite.png"
@@ -56,6 +57,7 @@ function PricingPage() {
         blog.
       </p>
       <Universe />
+      <Footer />
     </>
   );
 }
